@@ -3,7 +3,6 @@
 #Will heavily modify for the final version
 
 #Imports 
-#----------------
 import time
 import tkinter as tk
 from tkinter import *
