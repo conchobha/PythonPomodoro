@@ -46,6 +46,8 @@ def countdown():
     toast = ToastNotifier()#create toast variable
     toast.show_toast("Notification","Timer is Off",duration = 20,icon_path = NONE,threaded = True,)#show toast
 
+def TodoList(): #Will be used to handle the underlying logic for displaying the Todo list
+    return
 
 Label(window,text="Enter time in HH:MM:SS",font=('bold')).pack()
 Entry(window,textvariable = hour,width=30).pack()
@@ -58,5 +60,4 @@ Checkbutton(text='Check for Music',onvalue=True,variable=check).pack()#creating 
 Button(window,text="Set Countdown",command=countdown,bg='yellow').pack()#create buttons  
 window.update()#update the window
 window.mainloop()#main command
-def TodoList(): #Will be used to handle the underlying logic for displaying the Todo list
-    return
+
