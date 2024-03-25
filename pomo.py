@@ -58,5 +58,5 @@ Checkbutton(text='Check for Music',onvalue=True,variable=check).pack()#creating 
 Button(window,text="Set Countdown",command=countdown,bg='yellow').pack()#create buttons  
 window.update()#update the window
 window.mainloop()#main command
-def TodoList():
+def TodoList(): #Will be used to handle the underlying logic for displaying the Todo list
     return
